@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000ef;
+    font-family: sans-serif;
+    color: #DADADA;
+}
+
+.darkblack {
+    background-color: #00000078;
+} 
+
+.lightblack {
+    background-color: rgb(25, 25, 25)
+}
+
+.lightgray {
+    color: #DADADA;
+}
+
+.darkgray {
+    color: #A0A0A0;
+}
+
+.orange {
+    color: #FF5722;
+}
+
+.green {
+    color: #4CAF50;
+}
+
+.blue {
+    color: #03A9F4;
+}
+
+.bgorange {
+    background-color: #FF5722;
+}
+
+.bggreen {
+    background-color: #4CAF50;
+}
