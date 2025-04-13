@@ -6,7 +6,7 @@ const Tutorial = () => {
   return (
     <>
       <h2 id="curso" className="text-4xl lightgray text-center py-10">¿Qué aprenderás?</h2>
-      <div className="grid md:grid-cols-4 grid-cols-2 h-[250px] gap-4 py-4 md:px-0 px-4">
+      <div className="grid md:grid-cols-4 grid-cols-1 h-[250px] gap-4 py-4 md:px-0 px-4">
       {tutorial.map((item, index) => (
           <Card
             key={index} 

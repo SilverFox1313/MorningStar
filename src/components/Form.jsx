@@ -43,7 +43,7 @@ const Form = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-2 lightblack lightgray w-full rounded-lg p-8"
+      className="flex flex-col gap-2 lightblack lightgray w-full rounded-lg sm:p-8 p-4"
     >
       <input
         type="email"
@@ -65,14 +65,14 @@ const Form = () => {
           loading
             ? "bg-orange-300 cursor-not-allowed"
             : "bgorange hover:bg-orange-400"
-        } py-3 rounded-full text-white font-bold transition duration-300`}
+        } sm:py-3 py-2 rounded-full text-white font-bold transition duration-300`}
       >
         {loading ? "ENVIANDO..." : "ENVIAR"}
       </button>
       <a
         href="https://wa.me/+18097155343"
         target="_blank"
-        className="w-full bggreen hover:bg-green-400 py-3 flex justify-center items-center gap-2 font-bold rounded-full mt-4 text-white no-underline"
+        className="w-full bggreen hover:bg-green-400 sm:py-3 py-2 flex justify-center items-center gap-2 font-bold rounded-full mt-4 text-white no-underline"
       >
         <img src={ws} alt="whatsapp" className="size-6" />
         <span>WhatsApp chat</span>

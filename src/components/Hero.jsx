@@ -6,17 +6,17 @@ const Hero = () => {
     <section className="md:h-[400px] sm:h-[300px] h-[630px] sm:flex lightblack">
       {/* Contenido de texto */}
       <div className="sm:w-1/2 sm:h-full w-full h-1/2 flex-col content-center px-8 py-2">
-        <h1 className="md:text-6xl sm:text-4xl text-7xl">Monetiza Tu</h1>
-        <h1 className="md:text-6xl sm:text-4xl text-7xl">Tiempo En</h1>
+        <h1 className="md:text-6xl sm:text-4xl text-6xl">Monetiza Tu</h1>
+        <h1 className="md:text-6xl sm:text-4xl text-6xl">Tiempo En</h1>
         <div className="flex gap-2">
-          <h1 className="md:text-6xl sm:text-4xl text-6xl blue font-bold">FACEBOOK</h1>
+          <h1 className="md:text-6xl sm:text-4xl text-5xl blue font-bold">FACEBOOK</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="sm:size-[36px] md:size-[60px] size-[60px] orange"
+            className="sm:size-[36px] md:size-[60px] size-[50px] orange"
           >
             <path
               stroke-linecap="round"

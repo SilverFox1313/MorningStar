@@ -10,7 +10,7 @@ const Navbar = () => {
         <span className="animate-bounce">🔥</span>
       </div>
       <nav className="lightblack px-8">
-        <div className="flex justify-between items-center py-2">
+        <div className="flex sm:justify-between justify-center items-center py-2">
           <div className="flex items-center gap-2">
           <img
             src={coins}
@@ -19,7 +19,7 @@ const Navbar = () => {
           />
           <span className="text-xl font-bold">MorningStar</span>
           </div>
-          <ul className="flex gap-10">
+          <ul className="flex gap-10 hidden md:flex">
             <li><a href="#inicio" className="hover:text-orange-600">INICIO</a></li>
             <li><a href="#curso" className="hover:text-orange-600">CURSO</a></li>
             <li><a href="#contacto" className="hover:text-orange-600">CONTACTO</a></li>
